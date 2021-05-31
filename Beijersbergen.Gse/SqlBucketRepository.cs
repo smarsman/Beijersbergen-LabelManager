@@ -55,23 +55,22 @@ namespace Beijersbergen.Gse
             var buckets = entries
                 .GroupBy(x => x.BucketIndex)
                 .OrderBy(x => x.First().EventDate)
-                .Select(x => new Bucket()
-                {
-                    Date = x.First().EventDate,
-                    FormulaCode = x.First().FormulaCode,
-                    FormulaName = _formulaNameRepository.GetFormulaName(x.First().FormulaCode),
-                    BucketNumber = x.First().BucketNr,
-                    BucketIndex = x.First().BucketIndex,
-                    OrderCode = x.First().OrderCode,
-                    BaseColors = x.Select(xx => new BucketBaseColor()
+                .Select(x => new Bucket(
+                    bucketNumber: x.First().BucketNr,
+                    bucketIndex: x.First().BucketIndex,
+                    date: x.First().EventDate,
+                    formulaCode: x.First().FormulaCode,
+                    formulaName: _formulaNameRepository.GetFormulaName(x.First().FormulaCode),
+                    orderCode: x.First().OrderCode,
+                    baseColors: x.Select(xx => new BucketBaseColor()
                     {
                         ComponentCode = xx.ComponentCode,
                         ComponentName = "", //_componentNameRepository.GetComponentName(xx.ComponentCode),
                         LotCode = xx.LotCode,
                         DispensedWeightKg = xx.DispensedWeight,
                         RequiredWeightKg = xx.RequiredWeight
-                    }).ToList()
-                })
+                    }).ToList())
+                )
                 .ToList();
 
             return buckets;

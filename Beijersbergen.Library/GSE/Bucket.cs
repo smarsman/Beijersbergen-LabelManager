@@ -9,6 +9,21 @@ namespace Beijersbergen.Library.GSE
 {
     public class Bucket
     {
+        public Bucket(int bucketNumber, int bucketIndex, DateTime date, string formulaCode, string formulaName, string orderCode, List<BucketBaseColor> baseColors)
+        {
+            BucketNumber = bucketNumber;
+            BucketIndex = bucketIndex;
+            Date = date;
+            FormulaCode = formulaCode;
+            FormulaName = formulaName;
+            OrderCode = orderCode;
+            BaseColors = baseColors;
+
+            NumberOfBatchBaseColors = BaseColors.Count;
+            TotalRequiredWeightKg = BaseColors.Sum(x => x.RequiredWeightKg);
+            TotalDispensedWeightKg = BaseColors.Sum(x => x.DispensedWeightKg);
+        }
+
         public int BucketNumber { get; set; } // TODO: Rename to Batch nummer?
 
         public int BucketIndex { get; set; }
@@ -25,12 +40,10 @@ namespace Beijersbergen.Library.GSE
 
         [Category("Kleuren")]
         [DisplayName("Aantal")]
-        public int NumberOfBatchBaseColors => BaseColors.Count;
+        public int NumberOfBatchBaseColors { get; set; }
 
-        public decimal TotalRequiredWeightKg
-            => BaseColors.Sum(x => x.RequiredWeightKg);
+        public decimal TotalRequiredWeightKg { get; set; }
 
-        public decimal TotalDispensedWeightKg
-            => BaseColors.Sum(x => x.DispensedWeightKg);
+        public decimal TotalDispensedWeightKg { get; set; }
     }
 }

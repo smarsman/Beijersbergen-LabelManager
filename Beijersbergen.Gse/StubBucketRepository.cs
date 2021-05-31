@@ -9,18 +9,19 @@ namespace Beijersbergen.Gse
 {
     public class StubBucketRepository : IBucketRepository
     {
-        private readonly Bucket _bucket = new Bucket
-        {
-            FormulaCode = "ABCD",
-            Date = DateTime.Now,
-            BucketNumber = 1,
-            OrderCode = "OrderCode",
-            BaseColors = new List<BucketBaseColor>()
+        private readonly Bucket _bucket = new Bucket(
+            bucketNumber: 1,
+            bucketIndex: 1,
+            date: DateTime.Now,
+            formulaCode: "forumla code",
+            formulaName: "formula name",
+            orderCode: "OrderCode",
+            baseColors: new List<BucketBaseColor>()
                 {
                     new BucketBaseColor { ComponentCode = "123", ComponentName = "Zwart", DispensedWeightKg = 5, RequiredWeightKg = 5, LotCode = "efg" }
                 }
+            );
 
-        };
         public IEnumerable<Bucket> FindByBucketNumber(int bucketNumber) =>
             new List<Bucket>(1) { _bucket };
 
