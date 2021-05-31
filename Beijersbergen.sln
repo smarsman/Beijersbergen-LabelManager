@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.36
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beijersbergen.Fluid.Access", "Beijersbergen.Access\Beijersbergen.Fluid.Access.csproj", "{59A8678A-4F18-45A5-BDCF-C90419B3B4B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beijersbergen.Library", "Beijersbergen.Library\Beijersbergen.Library.csproj", "{3154420B-ACDE-405B-9EF0-E97B3DD5CEA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beijersbergen.LabelManager", "Beijersbergen.LabelManager\Beijersbergen.LabelManager.csproj", "{689198E5-B221-44BE-BD9F-E37BDFBD3311}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beijersbergen.Gse", "Beijersbergen.Gse\Beijersbergen.Gse.csproj", "{27EA3A1D-A5DE-401F-95F3-D85F898A3B2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beijersbergen.Zebra", "Beijersbergen.Zebra\Beijersbergen.Zebra.csproj", "{72D63EA6-38F3-49E3-87A3-11CAC50577F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59A8678A-4F18-45A5-BDCF-C90419B3B4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A8678A-4F18-45A5-BDCF-C90419B3B4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A8678A-4F18-45A5-BDCF-C90419B3B4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A8678A-4F18-45A5-BDCF-C90419B3B4B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3154420B-ACDE-405B-9EF0-E97B3DD5CEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3154420B-ACDE-405B-9EF0-E97B3DD5CEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3154420B-ACDE-405B-9EF0-E97B3DD5CEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3154420B-ACDE-405B-9EF0-E97B3DD5CEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689198E5-B221-44BE-BD9F-E37BDFBD3311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689198E5-B221-44BE-BD9F-E37BDFBD3311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689198E5-B221-44BE-BD9F-E37BDFBD3311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689198E5-B221-44BE-BD9F-E37BDFBD3311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27EA3A1D-A5DE-401F-95F3-D85F898A3B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27EA3A1D-A5DE-401F-95F3-D85F898A3B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27EA3A1D-A5DE-401F-95F3-D85F898A3B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27EA3A1D-A5DE-401F-95F3-D85F898A3B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D63EA6-38F3-49E3-87A3-11CAC50577F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D63EA6-38F3-49E3-87A3-11CAC50577F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D63EA6-38F3-49E3-87A3-11CAC50577F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D63EA6-38F3-49E3-87A3-11CAC50577F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADBA27DE-23C3-430D-A652-01EF741EEF58}
+	EndGlobalSection
+EndGlobal

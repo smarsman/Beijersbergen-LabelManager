@@ -1,0 +1,57 @@
+﻿CT~~CD,~CC^~CT~
+^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR6,6~SD20^JUS^LRN^CI0^XZ
+^XA
+^MMT
+^PW1039
+^LL1982
+^LS0
+<<CorrosiveIndicator>>
+^FO576,288^GFA,16896,16896,00048,:Z64:
+eJztlrFqwzAQhu2mpkOGKIPxmEephz5AAvFY8iTFGfMYHUuHPkCmPkKGZBTqGDo3ENrKV0k2ttPCWaaUUPi/gM3Bz5/T6aRzEAAAAAAAAAAAAAAAAAAAAAAAfoX4K+ObtJ9+vewlD2k37qMfEL320SdENL/010+Mfr3y1y+UYTcV1QaIccdGXBt/Ku7r+KLDP7d6yrK0DKNszuup5LgswwEdWXl4py2ks5mLY9JTH3+ivQvNcpasf60/uMzNcrZ+eqJV+XfsAiKpanYiCE0oOf2g5W8yt2HB6a/a+k0Qmaf29j8GQ/ti/bUyxbc/rdXGll/x+lP/UbkMT/1bkNh2Sv3z7/RPVAspYmU24Nk3n6Jn/tqdZuL8hz39E9INMphokvqc+Z/U/7PTX1T1d6dASrsdUqW++fTvHxdy/v37n+r+N+crluY8cPoT/5fu8xu19akJc//z+7501xF7/4RN9+ssEOGtUlt2AjTN48ZYblfB+df6cgIs+PI3/tUYHnXdz7m7/mk3K7OO+fJU86s1wJ72vH5h5YdmaMUpr58Y+ccDr2mTSCUz0ZS86ztoQMWjv7tpoLxr4n6Dr/cPwmrw/ltE62nff/YhCgAAAAAAAAAAAAAAAAAAAAA4A1+k0EzT:3A9A
+^FT390,1969^A0B,51,50^FH\^FD<<Name>>^FS
+^FT467,1961^A0B,17,16^FH\^FDH315 - Veroorzaakt huidirritatie^FS
+^FT488,1961^A0B,17,16^FH\^FDH317 - Kan een allergische huidreactie veroorzaken^FS
+^FT509,1961^A0B,17,16^FH\^FDH318 - Veroorzaakt ernstig oogletsel. ^FS
+^FT530,1961^A0B,17,16^FH\^FDH360 - Kan de vruchtbaarheid of het ongeboren kind schaden.^FS
+^FT551,1961^A0B,17,16^FH\^FDH410 - Zeer giftig voor in het water levende organismen, ^FS
+^FT572,1961^A0B,17,16^FH\^FDmet langdurige gevolgen.^FS
+^FT614,1961^A0B,17,16^FH\^FDP302+P352 - BIJ CONTACT MET DE HUID: met veel water/zeep wassen. ^FS
+^FT635,1961^A0B,17,16^FH\^FDP305+P351+P338 - BIJ CONTACT MET DE OGEN: voorzichtig afspoelen met ^FS
+^FT656,1961^A0B,17,16^FH\^FDwater gedurende een aantal minuten; contactlenzen verwijderen, indien ^FS
+^FT677,1961^A0B,17,16^FH\^FDmogelijk; blijven spoelen. ^FS
+^FT697,1961^A0B,17,16^FH\^FDP308+P313 - NA (mogelijke) blootstelling: een arts raadplegen.^FS
+^FT718,1961^A0B,17,16^FH\^FDP332+P313 - Bij huidirritatie: een arts raadplegen. ^FS
+^FT739,1961^A0B,17,16^FH\^FDP333+P313 - Bij huidirritatie of uitslag: een arts raadplegen. ^FS
+^FT760,1961^A0B,17,16^FH\^FDP501 - Inhoud/verpakking afvoeren naar een verzamelpunt voor gevaarlijk of ^FS
+^FT781,1961^A0B,17,16^FH\^FDspeciaal afval, overeenkomstig de lokale, regionale, nationale en/of ^FS
+^FT802,1961^A0B,17,16^FH\^FDinternationale regelgeving^FS
+^FT824,1961^A0B,17,16^FH\^FDBevat: Ethoxylated trimethylopropane triacrylate; 3-[2,3-bis(3-prop-2-^FS
+^FT845,1961^A0B,17,16^FH\^FDenoyloxypropoxy)propoxy]propyl prop-2-enoate; 4-methoxyphenol; ^FS
+^FT866,1961^A0B,17,16^FH\^FDTMPTA (Trimethylolpropane triacrylate); 2-benzl-2dimethylamino-4-^FS
+^FT887,1961^A0B,17,16^FH\^FDmorphollnobutyrophenone; Oxybis(methyl-2,1-ethanediyl) diacrylate;^FS
+^FT908,1961^A0B,17,16^FH\^FD2-ethyl-2-[[(1-oxoallyl)oxy]methyl]-1,3-propanediyl diacrylate; ^FS
+^FT929,1961^A0B,17,16^FH\^FDPhenyl bis(2,4,6-trimethylbenzoyl)-phosphine oxide; (TCDDMDA) ^FS
+^FT950,1961^A0B,17,16^FH\^FDTricyclodecane dimethanol diacrylate; HDDA (1,6-hexanediol ^FS
+^FT971,1961^A0B,17,16^FH\^FDdiacrylate)^FS
+^FT812,1379^A0B,28,28^FH\^FDBatchnummer:^FS
+^FT846,1379^A0B,28,28^FH\^FDProductiedatum:^FS
+^FT880,1379^A0B,28,28^FH\^FDNetto gewicht:^FS
+^FT880,1164^A0B,28,28^FH\^FD<<Weight>>^FS
+^FT812,1164^A0B,28,28^FH\^FD<<BatchNumber>>^FS
+^FT846,1164^A0B,28,28^FH\^FD<<ProductionDate>>^FS
+^FT470,1378^A0B,17,16^FH\^FDVoor gebruik goed schudden om in suspentie ^FS
+^FT491,1378^A0B,17,16^FH\^FDte brengen.^FS
+^FT533,1378^A0B,17,16^FH\^FDVoor gebruik of verwijdering het^FS
+^FT554,1378^A0B,17,16^FH\^FDveiligheidsinformatieblad raadplegen^FS
+^FT596,1378^A0B,17,16^FH\^FDVoor meer informatie over het gebruik van dit product^FS
+^FT617,1378^A0B,17,16^FH\^FDkunt u onze technische informatie raadplegen of^FS
+^FT638,1378^A0B,17,16^FH\^FDcontact opnemen met de verkoopafdeling in uw regio^FS
+^FT680,1378^A0B,17,16^FH\^FDBewaren in een droge, goed geventileerde ruimte bij^FS
+^FT701,1378^A0B,17,16^FH\^FDeen temperatuur tussen 5\F8C en 25\F8C. Verwijderd^FS
+^FT722,1378^A0B,17,16^FH\^FDhouden van warmtebronnen en direct zonlicht.^FS
+^FT764,1378^A0B,17,16^FH\^FDVoorkom lozing in het mileu.^FS
+^FT785,967^BQN,2,<<MagnificationFactor>>
+^FH^FDLM,<<QrCode>>^FS
+^BY2,3,56^FT218,201^BCN,,Y,N
+^FD<<128Code>>^FS
+^PQ1,0,1,Y^XZ
